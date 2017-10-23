@@ -12,12 +12,12 @@
 
             <div class="container">
                 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-                    <p class="h1 text-white">Semi Restfull Users</p>
+                    <p class="h1 text-white">Black Belt Exam</p>
                 </nav>
             </div>
 
             <div class="container">
-                <h2>Hello {{ myself.alias }}</h2>
+                <h5>Hello {{ myself.alias }}</h5>
                 {% if friends%}
                     <h3>Here is the list of your friends:</h3>
                 {% else %}
@@ -44,7 +44,7 @@
                         {% endfor %}
                     </tbody>
                 </table>
-                <p>Other user's not on you friends list</p>
+                <h5>Other user's not on you friends list</h5>
                 <table class="table table-striped table-bordered">
                     <thead>
                         <tr>
